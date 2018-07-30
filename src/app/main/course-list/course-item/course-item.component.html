@@ -1,0 +1,14 @@
+<div class="course-item">
+  <div class="course-description">
+    <h3>{{courseItem.title}}</h3>
+    <div class="duration">
+      <span>{{formatDuration}} </span>
+      <span>{{courseItem.creationDate}}</span>
+    </div>
+    <p >{{courseItem.description}}</p>
+  </div>
+  <div>
+    <button (click)='editCourse()'>Edit</button>
+    <button (click)='deleteCourse()'>Delete</button>
+  </div>
+</div>
